@@ -7,5 +7,5 @@ class lib_markdown extends \LIB\lib_php{
         \SYSTEM\autoload::registerFolder(dirname(__FILE__).'/lib','Michelf');
         return true;}
     public static function version(){
-        return 'unknown';}
+        return '1.3';}
 }
